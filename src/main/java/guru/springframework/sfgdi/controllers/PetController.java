@@ -11,7 +11,7 @@ public class PetController {
         this.petService = petService;
     }
 
-    public String withPetIsTheBest(){
+    public String witchPetIsTheBest(){
         return petService.getPetType();
     }
 
